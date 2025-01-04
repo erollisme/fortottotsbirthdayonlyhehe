@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-family: 'Source serif 4', serif;
+        font-weight: 450;
+        color: #474747;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        font-style: italic;
+    }
+
+    .div {
+        border: 1px solid gainsboro;
+        width: 80%;
+        background-color: #f5f5f5;
+        margin: auto;
+        padding: .8rem;
+        border-radius: .7rem;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 10px;       
+        max-width: calc(100px * 5 + 40px); 
+        padding-top: 2rem;
+        
+    }
+
+    .div button {
+        background-color: gainsboro;
+        color: #474747;
+        border: none;
+        padding: .8rem 0rem;
+        width: 2.5rem; 
+        margin-left: .2rem;
+        margin-right: .2rem;
+        margin-bottom: 1.5rem;
+        transition: 0.3s ease;
+    }
+
+    .div1 {
+        margin-top: 2rem;
+        padding: 0rem 1rem;
+        font-family: 'Inter', sans-serif;
+
+    }
+
+    .div1 h3 {
+        font-weight: 400;
+        font-size: .9rem;
+    }
+
+    .div1 span {
+        color: #A10000;
+        font-family: 'Source serif 4', serif;
+        font-style: italic;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .div1 div {
+        margin: auto;
+        margin-top: 1rem;
+        border: 1px solid gainsboro;
+        border-radius: .5rem;
+        height: 5rem;
+        padding: .5rem;
+        background-color: #f5f5f5;
+    }
+
+
+    footer {
+        position: absolute;
+        bottom: 0%;
+        background-color: #474747;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: .7rem;
+        padding: .2rem;
+        text-align: center;
+        width: 100%;
+
+    }   
+    .btn.active {
+        background-color: #7D0000; /* Color when clicked */
+        border-radius: .5rem;
+        color: #f5f5f5;
+    }
+
+
+}
